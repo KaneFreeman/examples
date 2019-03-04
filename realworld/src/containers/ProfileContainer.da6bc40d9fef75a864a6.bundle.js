@@ -1,0 +1,10 @@
+/*!
+ * 
+ * [Dojo](https://dojo.io/)
+ * Copyright [JS Foundation](https://js.foundation/) & contributors
+ * [New BSD license](https://github.com/dojo/meta/blob/master/LICENSE)
+ * All rights reserved
+ * 
+ */
+(window.dojoWebpackJsonprealworld_app=window.dojoWebpackJsonprealworld_app||[]).push([[10],{66:function(e,s,o){"use strict";o.r(s);var t=o(22),n=o(21),r=o(23),i=o(52);var l=o(50),c=o(24);s.default=Object(c.a)(class extends t.a{_onFollowUser(){const{followUser:e,following:s,username:o}=this.properties;e({username:o,following:s})}render(){let{currentUser:e,username:s,bio:o,image:t,type:l,following:c}=this.properties;const a=e===s;return Object(n.f)("div",{classes:"profile-page"},[Object(n.f)("div",{classes:"user-info"},[Object(n.f)("div",{classes:"container"},[Object(n.f)("div",{classes:"row"},[Object(n.f)("div",{classes:["col-xs-12","col-md-10","offset-md-1"]},[Object(n.f)("img",{src:t,classes:"user-img"}),Object(n.f)("h4",[s]),Object(n.f)("p",[o]),a?Object(n.g)(r.a,{to:"settings",classes:["btn","btn-sm","btn-outline-secondary","action-btn"]},[Object(n.f)("i",{classes:"ion-edit"})," Edit Profile Settings"]):Object(n.f)("button",{onclick:this._onFollowUser,classes:["btn","btn-sm",c?"btn-secondary":"btn-outline-secondary","action-btn"]},[Object(n.f)("i",{classes:"ion-plus-round"}),c?" UnFollow ":" Follow ",s])])])])]),Object(n.f)("div",{classes:"container"},[Object(n.f)("div",{classes:"row"},[Object(n.g)(i.a,{key:s,type:l,username:s})])])])}},"state",{paths:[["profile"],["user"]],getProperties:function(e,s){const{get:o,path:t}=e;return{username:s.username,type:s.type,image:o(t("profile","image")),bio:o(t("profile","bio")),following:o(t("profile","following")),currentUser:o(t("user","username")),followUser:Object(l.a)(e)}}})}}]);
+//# sourceMappingURL=ProfileContainer.da6bc40d9fef75a864a6.bundle.js.map
